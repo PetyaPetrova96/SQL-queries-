@@ -76,7 +76,7 @@ group by v.id,te.testerid
 
 
 
---I dont get it
+
 select count(*)
 from (
 	select T.testerID, count(distinct T.variantID)
